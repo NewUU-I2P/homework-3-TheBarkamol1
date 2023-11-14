@@ -5,19 +5,19 @@ std::string problemSolution3(float height, char s) {
     // write your code her
     if (s=='M'){
         if(height < 1.70){
-            result = "short";
+            return "short";
         } if (1.70 <= height < 1.85){
-            result = "normal";
+            return "normal";
         } if (height >= 1.85){
-            result = "Tall";
+            return "Tall";
         }
     } if(s=='F'){
         if(height < 1.60){
-            result = "short";
+            return "short";
         } if (1.60 <= height < 1.75){
-            result = "normal";
+            return "normal";
         } if (height >= 1.75){
-            result = "Tall";
+            return "Tall";
         }
 
 
